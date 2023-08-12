@@ -1,0 +1,12 @@
+.btn-primary:hover{
+    background-color: black;
+}
+canvas{
+animation-name: Animation;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes Animation {
+    from {box-shadow: 1px 1px 500px red;}
+    to{box-shadow: 1px 1px 500px yellow;}
+}
